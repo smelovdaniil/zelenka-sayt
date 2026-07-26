@@ -68,42 +68,42 @@ export const popularPlants: Plant[] = [
     name: "Туя Смарагд",
     latinName: "Thuja occidentalis Smaragd",
     price: 1500,
-    imagePlaceholder: "/images/tuya.jfif",
+    imagePlaceholder: "/images/tuya.jpg",
   },
   {
     id: 2,
     name: "Гортензия метельчатая",
     latinName: "Hydrangea paniculata",
     price: 2400,
-    imagePlaceholder: "/images/gortenzia1.jfif",
+    imagePlaceholder: "/images/gortenzia1.jpg",
   },
   {
     id: 3,
     name: "Сосна горная Хампи",
     latinName: "Montem Hampi Abiete",
     price: 4000,
-    imagePlaceholder: "/images/humpy.jfif",
+    imagePlaceholder: "/images/humpy.jpg",
   },
   {
     id: 4,
     name: "Можжевельник Стрикта",
     latinName: "Iuniperus Stricta",
     price: 1500,
-    imagePlaceholder: "/images/stricta.jfif",
+    imagePlaceholder: "/images/stricta.jpg",
   },
   {
     id: 5,
     name: "Ель обыкновенная Литтл Джем",
     latinName: "Commune Abiegnis Parum Impedita",
     price: 1800,
-    imagePlaceholder: "/images/littlegem.jfif",
+    imagePlaceholder: "/images/littlegem.jpg",
   },
   {
     id: 6,
     name: "Роза чайно-гибридная",
     latinName: "Tea-hybrid rosa",
     price: 800,
-    imagePlaceholder: "/images/roza.jfif",
+    imagePlaceholder: "/images/roza.jpg",
   },
 ];
 
@@ -114,7 +114,7 @@ export const about = {
     "Каждое растение проходит многоступенчатый контроль качества: от семени до момента отправки. Мы не используем стимуляторы роста — только естественный уход, правильный полив и заботливые руки наших специалистов.",
     "За 7 лет мы вырастили более 1 000 растений, которые украшают сады, парки и участки по всему Северо-Западному региону.",
   ],
-  imagePlaceholder: "/images/onas.jfif",
+  imagePlaceholder: "/images/onas.jpg",
 };
 
 export const landscaping = {
@@ -164,9 +164,9 @@ export const faq: FaqItem[] = [
 export const contacts = {
   address: "Приозерск, Ленинградское шоссе, 31А",
   schedule: "Ежедневно 10:00–19:00",
-  phone: "+7 (812) 555-XX-XX",
-  phoneDigits: "+7812555XXXX",
-  phoneHref: "tel:+7812555XXXX",
+  //phone: "+7 (812) 555-XX-XX",
+ // phoneDigits: "+7812555XXXX",
+ // phoneHref: "tel:+7812555XXXX",
   mapIframe: "https://yandex.ru/map-widget/v1/?ll=30.129378%2C61.022957&mode=search&oid=129496267224&ol=biz&z=17.57",
 };
 
