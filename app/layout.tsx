@@ -14,9 +14,24 @@ const appName = "Зелёнка";
 
 export const metadata: Metadata = {
   title: appName,
-  description: appName,
+  description: "Садовый центр «Зелёнка» — растения с доставкой по СПб и ЛО. Каталог, ландшафтный дизайн, консультации.",
   icons: {
     icon: "/favicon.svg",
+  },
+  openGraph: {
+    title: "Зелёнка — Садовый центр в Санкт-Петербурге",
+    description: "Растения, саженцы, ландшафтный дизайн с доставкой. Заходите!",
+    url: "https://zelenka-garden.ru",
+    siteName: "Зелёнка",
+    images: [
+      {
+        url: "https://zelenka-garden.ru/images/preview.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Зелёнка — Садовый центр",
+      },
+    ],
+    type: "website",
   },
 };
 
