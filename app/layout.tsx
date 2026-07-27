@@ -15,6 +15,9 @@ const appName = "Зелёнка";
 export const metadata: Metadata = {
   title: appName,
   description: appName,
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
